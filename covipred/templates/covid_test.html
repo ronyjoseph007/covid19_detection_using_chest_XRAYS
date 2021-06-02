@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+        <!-- form starts -->
+        <form method="post" action="{% url 'predict' %}" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="xray">
+                <img src="{% static 'images/chest.jpg' %}" alt="">
+
+                <div class="fil-but">
+                    <label>CHOOSE FILE</label>
+                    <input type="file" class='file' name="myfile" accept="image/*">
+
+                </div>
+
+                <button type="submit" class='inp' value="">TEST HERE</button>
+            </div>
+
+        </form>
+        <!-- form ends -->
+
+
+
+
+{% endblock %}

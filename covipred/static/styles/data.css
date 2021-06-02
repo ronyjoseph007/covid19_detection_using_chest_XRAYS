@@ -1,0 +1,26 @@
+body {
+  background-color: #29A4AF;
+}
+
+.table thead tr th {
+  text-align: center;
+}
+
+.table tbody tr td {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.table tbody tr #orange {
+  background-color: orange;
+}
+
+.table tbody tr #green {
+  background-color: green;
+}
+
+.table tbody tr #red {
+  background-color: red;
+}
+/*# sourceMappingURL=data.css.map */
