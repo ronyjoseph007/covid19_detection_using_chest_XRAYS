@@ -1,3 +1,3 @@
 # covid19_detection_using_chest_XRAYS
 
-# https://raw.githubusercontent.com/ronyjoseph007/covid19_detection_using_chest_XRAYS/master/pro1.PNG
+![pro1](https://user-images.githubusercontent.com/40737900/145778805-53846044-466c-4cd6-b916-fe114f2f2c2e.PNG)
